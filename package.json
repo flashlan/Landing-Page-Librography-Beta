@@ -1,7 +1,7 @@
 {
-  "name": "fresh",
+  "name": "Librography-Beta-Lanfing-Page",
   "version": "4.0.1",
-  "description": "Fresh - Bulma + Alpine JS landing page",
+  "description": "Librography Beta landing page",
   "main": "gulpfile.js",
   "dependencies": {
     "@ryangjchandler/spruce": "^2.4.0",
