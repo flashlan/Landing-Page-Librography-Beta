@@ -52,12 +52,12 @@ https://bit.ly/3m9avif
 ====================== */
 
 /* Main Footer */
-footer .main-footer{  padding: 2px 0;  background: #09072c; align: center;
+footer .main-footer{  padding: 2px 0;  background: #141425; align: center;
 }
 footer ul{  padding-left: 2px;  list-style: none;}
 
 /* Copy Right Footer */
-.footer-copyright { background: rgb(14, 13, 49); padding: 5px 0;}
+.footer-copyright { background: rgb(18, 18, 26); padding: 5px 0;}
 .footer-copyright .logo {    display: inherit;}
 .footer-copyright nav {    float: right;    margin-top: 5px;}
 .footer-copyright nav ul {  list-style: none; margin: 0;  padding: 0;}

@@ -1,7 +1,7 @@
 import Select, { components, PlaceholderProps } from 'react-select';
 /*import { loadReCaptcha } from 'react-recaptcha-google'*/
 import React, { Component } from 'react'
-import "./BetaForm.css";
+import "../assets/css/BetaForm.css";
 
 const options = [
     { value: 'windows', label: 'Windows' },
