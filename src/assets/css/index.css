@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Yuji+Boku&display=swap');
+
+html{ 
+  background: linear-gradient(300deg,#1a4974,#0b3965,#1b63a9);
+  background-size: 180% 180%;
+  animation: gradient-animation 15s ease infinite;  
+}
+
+body {
+  margin:0;
+  
+  padding: 0px;
+  font-family: Lato;
+  -webkit-font-smoothing: antialised;
+  -moz-osx-font-smoothing:greyscale;
+  overflow-x: hidden;
+  /*padding-bottom: 320px;*/
+  /*backgroung-image: url("./Group_3.svg");
+  /*background-position: bottom;
+  background-repeat: no-repeat;*/
+  color: white;
+}
+
+body *{
+  transition: all 500ms ease-in-out;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

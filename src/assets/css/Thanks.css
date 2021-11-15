@@ -1,0 +1,15 @@
+.thanks {
+  font-size: 30px;
+  width: 70%;
+  margin: 120px auto;
+  text-align: center;
+  
+}
+
+@media screen and (max-width: 1600px) {
+  header img {
+    width: 1230px;
+    right: -50%;
+    top: -28px
+  }
+}
