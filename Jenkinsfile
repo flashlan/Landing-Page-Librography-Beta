@@ -7,12 +7,14 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+				sh 'rm -rf node_modules'
 				//sh 'sudo apt-get update && sudo apt-get -y --no-install-recommends install && sudo apt-get clean'
 				//sh 'sudo apt-get install -y curl '
 				//sh 'curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -'
 				//sh 'sudo apt-get install -y nodejs && sudo apt-get install -y nginx'
 				//sh 'sudo npm install -g npm@latest'
 				//sh 'npm install --legacy-peer-deps'
+				sh 'sudo npm install -g yarn'
                 sh 'npm install'	
             }
         }
