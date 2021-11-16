@@ -9,7 +9,7 @@ pipeline {
             steps {
 				sh 'sudo apt-get update && sudo apt-get -y --no-install-recommends install && sudo apt-get clean'
 				sh 'sudo apt-get install -y curl '
-				sh 'sudo curl -sL https://deb.nodesource.com/setup_14.x | bash -'
+				sh 'curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -'
 				sh 'sudo apt-get install -y nodejs && sudo apt-get install -y nginx'
                 //sh 'npm install'	
             }
