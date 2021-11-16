@@ -12,6 +12,7 @@ pipeline {
 				//sh 'curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -'
 				//sh 'sudo apt-get install -y nodejs && sudo apt-get install -y nginx'
 				//sh 'sudo npm install -g npm@latest'
+				sh 'npm install --legacy-peer-deps'
                 sh 'npm install'	
             }
         }
