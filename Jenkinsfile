@@ -17,7 +17,7 @@ pipeline {
 				// sh 'sudo npm install -g yarn'
                 sh 'npm install'
 				sh 'CI=false npm run build'
-				sh 'scp -r build/* root@192.168.1.136:/var/www/ -i /home/jenkins/.ssh/id-rsa'
+				sh 'scp -r build/* root@192.168.1.136:/var/www/ -i /home/jenkins/.ssh/id_rsa'
 				
             }
         }
