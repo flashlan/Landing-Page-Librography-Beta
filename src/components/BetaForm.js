@@ -11,7 +11,7 @@ const options = [
 
 function BetaForm() {
     return(
-        <div className="main">
+        <div data-aos="fade-up" className="main">
         <div className="center">
           <div className="menu">
             <div className="logo">

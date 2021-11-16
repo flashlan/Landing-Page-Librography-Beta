@@ -46,6 +46,7 @@ header {
   position: relative;
   font-family: Lato;
   margin-left: 30px;
+  color: white;
 }
 
 header div {
@@ -101,9 +102,11 @@ main {
 }
 
 h2 {
+  color: white;
   font-size: 45px;
-  margin-bottom: 120px;
+  margin-bottom: 100px;
   text-align: center;
+  width: 100%;
 }
 
 h3 {
@@ -119,7 +122,7 @@ h3 {
 .service-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin: 40px 0px 180px 0px;
   position: relative;
@@ -135,7 +138,15 @@ h3 {
   -webkit-box-shadow: 0px 0px 53px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0pc 0px 53px -19px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 52px -19px rgba(0, 0, 0, 0.75);
+
+ /* transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    animation: slide-in 0.5s forwards;
+    -webkit-animation: slide-in 0.5s forwards; */
 }
+/* @keyframes slide-in {
+  100% { transform: translateX(0%); } 
+} */
 
 .service-description{
   width: 48%;
@@ -145,6 +156,9 @@ h3 {
   width: 80%;
   margin: 0 auto;
   text-align: center;
+  
+  margin-bottom: 280px;
+  color: white;
 }
 
 .newsletter * {

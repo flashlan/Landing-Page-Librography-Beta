@@ -4,11 +4,11 @@ html{
   background: linear-gradient(300deg,#1a4974,#0b3965,#1b63a9);
   background-size: 180% 180%;
   animation: gradient-animation 15s ease infinite;  
+  color: white;
 }
 
 body {
   margin:0;
-  
   padding: 0px;
   font-family: Lato;
   -webkit-font-smoothing: antialised;
