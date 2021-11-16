@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-				// sh 'rm -rf node_modules'
+				 sh 'rm -rf node_modules'
 				//sh 'sudo apt-get update && sudo apt-get -y --no-install-recommends install && sudo apt-get clean'
 				//sh 'sudo apt-get install -y curl '
 				//sh 'curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -'
