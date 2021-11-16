@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-				sh 'sudo npm install -g npm@latest'
+				
                 sh 'npm install'	
             }
         }
