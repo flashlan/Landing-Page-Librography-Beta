@@ -11,6 +11,7 @@ pipeline {
                     sh 'npm config ls'
 				
                 sh 'npm install'	
+				}
             }
         }
         stage('Test') {
